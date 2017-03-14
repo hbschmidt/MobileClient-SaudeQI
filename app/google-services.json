@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "594886770130",
+    "firebase_url": "https://saudeqi-2fb8e.firebaseio.com",
+    "project_id": "saudeqi-2fb8e",
+    "storage_bucket": "saudeqi-2fb8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594886770130:android:3825cee5a2a126d1",
+        "android_client_info": {
+          "package_name": "com.elrondsadvice.saudeqi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594886770130-skcrr89101a4m1org4s6imgkglgbqi3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elrondsadvice.saudeqi",
+            "certificate_hash": "d274f24e7f030548ebd55010e2a9356ea014a254"
+          }
+        },
+        {
+          "client_id": "594886770130-65fdigjfjri3tien6f63dpdeu20f978i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh2XfTj7Zfr2D3Vzo6bCyH9B2ytd9abKA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594886770130-65fdigjfjri3tien6f63dpdeu20f978i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
