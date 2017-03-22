@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SaudeQI</string>
+    <string name="title_activity_pesquisa_medico">PesquisaMedico</string>
 </resources>
