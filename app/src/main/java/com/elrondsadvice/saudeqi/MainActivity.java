@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.elrondsadvice.saudeqi.essencial.PesquisaMedico;
+import com.elrondsadvice.saudeqi.Medico.PesquisaMedico;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

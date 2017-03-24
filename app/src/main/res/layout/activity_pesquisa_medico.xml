@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:title="Busca Médicos"
-    tools:context="com.elrondsadvice.saudeqi.essencial.PesquisaMedico">
+    tools:context="com.elrondsadvice.saudeqi.Medico.PesquisaMedico">
 
     <LinearLayout
         android:layout_width="match_parent"

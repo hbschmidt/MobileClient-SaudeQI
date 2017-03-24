@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".essencial.PesquisaMedico"
+            android:name=".Medico.PesquisaMedico"
             android:label="@string/title_activity_pesquisa_medico"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

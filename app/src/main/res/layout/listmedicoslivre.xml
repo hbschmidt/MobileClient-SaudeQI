@@ -25,13 +25,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nome"
-            android:textSize="30dp" />
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/lista_curso_personalizada_descricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Especialidade"
+            android:textColor="#ffffff"
             android:textSize="20dp" />
 
         <RatingBar
