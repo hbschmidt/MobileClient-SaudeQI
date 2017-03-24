@@ -7,24 +7,36 @@
     android:title="Busca Médicos"
     tools:context="com.elrondsadvice.saudeqi.essencial.PesquisaMedico">
 
-    <android.support.design.widget.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fitsSystemWindows="true"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        android:title="Busca Médicos"
-        app:expanded="true">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="false"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:expanded="false">
 
-        <include layout="@layout/content_pesquisa_medico" />
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:elevation="24dp"
 
-    </android.support.design.widget.AppBarLayout>
+                app:title="Busca Médicos" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include
+            layout="@layout/content_pesquisa_medico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible" />
+    </LinearLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>
