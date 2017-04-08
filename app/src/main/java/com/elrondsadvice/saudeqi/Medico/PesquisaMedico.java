@@ -20,6 +20,9 @@ public class PesquisaMedico extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+
         List<Medico> medicos = new ArrayList<Medico>();
 
         Medico dr = new Medico("Henrique", 22, "henrique@gmail.com");

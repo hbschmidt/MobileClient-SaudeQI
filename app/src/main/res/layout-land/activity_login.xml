@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:fillViewport="true"
+    >
+
+    <android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor_fu"
+    android:orientation="vertical"
+    tools:context="com.elrondsadvice.saudeqi.LoginActivity">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="#ffff"
+            android:src="@drawable/titulo" />
+
+    <TextView
+        style="@style/TxtLogin_land"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_login" />
+
+    <EditText
+        style="@style/edtEstilo_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtLogin"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        style="@style/TxtLogin_land"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_senha" />
+
+    <EditText
+        style="@style/edtEstilo_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtSenha"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_logar"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

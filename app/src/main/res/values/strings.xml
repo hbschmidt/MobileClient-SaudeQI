@@ -7,4 +7,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Entrar</string>
+
+    <!-- Strings relacionadas ao login -->
+    <string name="lbl_login">Email</string>
+    <string name="lbl_senha">Senha</string>
+    <string name="btn_logar">Entrar</string>
 </resources>
