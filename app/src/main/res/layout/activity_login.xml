@@ -31,12 +31,13 @@
         android:layout_height="wrap_content"
         android:text="@string/lbl_login" />
 
-    <EditText
-        style="@style/edtEstilo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtLogin"
-        android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/edtLogin"
+            style="@style/edtEstilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
 
     <TextView
         style="@style/TxtLogin"
@@ -51,10 +52,18 @@
         android:id="@+id/edtSenha"
         android:inputType="textPassword"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_logar"/>
+        <Button
+            android:layout_marginTop="20dp"
+            style="@style/btnPageLogin"
+            android:background="@color/btnLogar"
+            android:text="@string/btn_logar"
+            android:id="@+id/btnLogar"/>
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            style="@style/btnPageLogin"
+            android:background="@color/colorAccent"
+            android:text="Cadastrar" />
 
 </android.support.v7.widget.LinearLayoutCompat>
 </ScrollView>

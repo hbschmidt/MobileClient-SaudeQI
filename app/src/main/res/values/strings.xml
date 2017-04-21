@@ -13,4 +13,7 @@
     <string name="lbl_login">Email</string>
     <string name="lbl_senha">Senha</string>
     <string name="btn_logar">Entrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

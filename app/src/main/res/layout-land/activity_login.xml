@@ -51,10 +51,19 @@
         android:id="@+id/edtSenha"
         android:inputType="textPassword"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_logar"/>
+        <Button
+            android:layout_marginTop="5dp"
+            style="@style/btnPageLogin"
+            android:background="@color/btnLogar"
+            android:text="@string/btn_logar"
+            android:id="@+id/btnLogar"/>
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            style="@style/btnPageLogin"
+            android:background="@color/colorAccent"
+            android:text="Cadastrar" />
+
 
 </android.support.v7.widget.LinearLayoutCompat>
 </ScrollView>
