@@ -25,11 +25,12 @@
             android:src="@drawable/titulo"
             android:layout_marginBottom="50dp"/>
 
-    <TextView
-        style="@style/TxtLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lbl_login" />
+        <TextView
+            style="@style/TxtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_login"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edtLogin"
@@ -39,11 +40,12 @@
             android:inputType="textEmailAddress"
             android:maxLines="1" />
 
-    <TextView
-        style="@style/TxtLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lbl_senha" />
+        <TextView
+            style="@style/TxtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_senha"
+            android:textSize="20sp" />
 
     <EditText
         style="@style/edtEstilo"
@@ -53,17 +55,19 @@
         android:inputType="textPassword"/>
 
         <Button
-            android:layout_marginTop="20dp"
+            android:id="@+id/btnLogar"
             style="@style/btnPageLogin"
+            android:layout_marginTop="20dp"
             android:background="@color/btnLogar"
             android:text="@string/btn_logar"
-            android:id="@+id/btnLogar"/>
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnCadastrar"
             style="@style/btnPageLogin"
             android:background="@color/colorAccent"
-            android:text="Cadastrar" />
+            android:text="Cadastrar"
+            android:textSize="20sp" />
 
 </android.support.v7.widget.LinearLayoutCompat>
 </ScrollView>
