@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_login"
-            android:textSize="20sp" />
+
 
         <EditText
             android:id="@+id/edtLogin"
@@ -55,19 +55,17 @@
         android:inputType="textPassword"/>
 
         <Button
-            android:id="@+id/btnLogar"
-            style="@style/btnPageLogin"
             android:layout_marginTop="20dp"
+            style="@style/btnPageLogin"
             android:background="@color/btnLogar"
             android:text="@string/btn_logar"
-            android:textSize="20sp" />
+            android:id="@+id/btnLogar"/>
 
         <Button
             android:id="@+id/btnCadastrar"
             style="@style/btnPageLogin"
             android:background="@color/colorAccent"
-            android:text="Cadastrar"
-            android:textSize="20sp" />
+            android:text="Cadastrar" />
 
 </android.support.v7.widget.LinearLayoutCompat>
 </ScrollView>
